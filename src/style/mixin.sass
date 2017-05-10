@@ -1,0 +1,14 @@
+$fa-font-path: "~font-awesome/fonts"
+@import "~font-awesome/scss/font-awesome.scss"
+
+@mixin fa-icon($name)
+  @extend .fa
+  @extend ".fa-#{$name}"
+
+
+//公共样式
+// 居中
+.center
+  display: flex
+  align-items: center
+  justify-content: center
