@@ -12,3 +12,5 @@ export default function HomeHeader(props){
     </div>
   )
 }
+// src/components/home-header/imgs/searchBackground.jpg
+// src/components/home-header/index.jsx

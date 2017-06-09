@@ -1,27 +1,28 @@
 import React from 'react';
 import FeatureItem from '../feature-item/index.jsx';
+import './style.sass';
 
 export default function FeaturedToday(props){
   const itemList = [
     {
       "name": "Cosmo Black",
       "info": "Modern black armchair",
-      "imageUrl": "https://d3dr1ze7164817.cloudfront.net/items/2A3d3y0G3E3N3Z3X1M3i/1.JPG?X-CloudApp-Visitor-Id=2756471",
+      "imageUrl": "https://cl.ly/3L2p0T1X452L/1.jpg",
     },
     {
       "name": "Cosmo Black",
       "info": "Modern black armchair",
-      "imageUrl": "https://d3dr1ze7164817.cloudfront.net/items/2h3k3t071O0y0F0P1b3L/2.JPG?X-CloudApp-Visitor-Id=2756471",
+      "imageUrl": "https://cl.ly/132w0H2Z1J1T/3.jpg",
     },
     {
       "name": "Cosmo Black",
       "info": "Modern black armchair",
-      "imageUrl": "https://d3dr1ze7164817.cloudfront.net/items/0x3v1m341f220G1R1u3K/3.JPG?X-CloudApp-Visitor-Id=2756471",
+      "imageUrl": "https://cl.ly/0P0p0X2n2O3m/4.jpg",
     },
     {
       "name": "Cosmo Black",
       "info": "Modern black armchair",
-      "imageUrl": "https://d3dr1ze7164817.cloudfront.net/items/2h3k3t071O0y0F0P1b3L/2.JPG?X-CloudApp-Visitor-Id=2756471",
+      "imageUrl": "https://cl.ly/3y3L1I1z3y2W/5.jpg",
     }
   ];
 
