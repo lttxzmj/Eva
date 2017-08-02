@@ -27,16 +27,14 @@ export default function FeaturedToday(props){
   ];
 
     return(
-      <div>
-        <div className="feature">
-          <div className="feature__title">FEATURED TODAY</div>
-            <div className="feature__goods">
-              {itemList.map((item,index) =>
-                <FeatureItem key={index} item={item}/>
-            )}
-            </div>
-        </div>
+      <div className="feature">
+        <div className="feature__title">FEATURED TODAY</div>
+          <div className="feature__goods">
+            {itemList.map((item,index) =>
+              <FeatureItem key={index} item={item}/>
+          )}
+          </div>
       </div>
-    )
 
+    )
 }
