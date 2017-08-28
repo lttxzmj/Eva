@@ -1,11 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './style.sass';
+import React from 'react'
+import Detail from '../../containers/detail/index.jsx'
+import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
+import './style.sass'
 
 class FeatureItem extends React.Component{
   render() {
     return(
-      <div>
+      //点击图片进入相应的详情页
+      <Link to={`/detail/${this.props.item.id}`}>
         <div className="item">
           <div className="item__photo">
             <img src={this.props.item.imageUrl}/>
@@ -19,7 +22,7 @@ class FeatureItem extends React.Component{
             </div>
           </div>
         </div>
-      </div>
+      </Link>
     );
   }
 };
